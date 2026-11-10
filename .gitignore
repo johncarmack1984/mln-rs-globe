@@ -1,0 +1,8 @@
+/target
+/mln-rs-globe-*.png
+
+# Local Claude Code config
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+AGENTS.md

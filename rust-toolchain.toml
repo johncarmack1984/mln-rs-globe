@@ -1,0 +1,4 @@
+# The Rust mln-rs pins, so release builds don't depend on the runner's.
+[toolchain]
+channel = "1.99.1"
+profile = "minimal"

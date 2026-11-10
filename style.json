@@ -1,0 +1,57 @@
+{
+  "version": 8,
+  "name": "Blue planet",
+  "projection": { "type": "globe" },
+  "light": { "anchor": "viewport", "position": [1, 225, 58] },
+  "sky": {
+    "sky-color": "#199ef3",
+    "sky-horizon-blend": 0.5,
+    "horizon-color": "#ffffff",
+    "horizon-fog-blend": 0.5,
+    "fog-color": "#0000ff",
+    "fog-ground-blend": 0.5,
+    "atmosphere-blend": ["interpolate", ["linear"], ["zoom"], 0, 1, 10, 1, 12, 0]
+  },
+  "sources": {
+    "relief": {
+      "type": "raster",
+      "tiles": ["https://tiles.openfreemap.org/natural_earth/ne2sr/{z}/{x}/{y}.png"],
+      "tileSize": 256,
+      "maxzoom": 6,
+      "attribution": "Natural Earth"
+    },
+    "openmaptiles": {
+      "type": "vector",
+      "url": "https://tiles.openfreemap.org/planet"
+    }
+  },
+  "layers": [
+    {
+      "id": "ocean",
+      "type": "background",
+      "paint": { "background-color": "#0d2f5c" }
+    },
+    {
+      "id": "relief",
+      "type": "raster",
+      "source": "relief"
+    },
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "filter": ["!=", ["get", "brunnel"], "tunnel"],
+      "paint": { "fill-color": "#0d2f5c" }
+    },
+    {
+      "id": "borders",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "boundary",
+      "filter": ["all", ["==", ["get", "admin_level"], 2], ["!=", ["get", "maritime"], 1]],
+      "layout": { "line-join": "round" },
+      "paint": { "line-color": "rgba(255, 255, 255, 0.3)", "line-width": 0.75 }
+    }
+  ]
+}

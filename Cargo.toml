@@ -1,0 +1,33 @@
+[package]
+name = "mln-rs-globe"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.98"
+description = "A spinning globe with an atmosphere and stars, drawn by mln-rs in a winit window"
+license = "BSD-2-Clause"
+repository = "https://github.com/johncarmack1984/mln-rs-globe"
+# Not on crates.io (a git dependency can't be), but released with dist:
+# dist-workspace.toml and .github/workflows/release.yml.
+publish = false
+
+[package.metadata.dist]
+dist = true
+
+[dependencies]
+# The globe and the sky are not released yet: they are on globe-pr, the branch
+# of the pull request to louwers/mln-rs. Cargo.lock pins its commit, and
+# `cargo update -p mln-rs` moves to the branch's latest.
+mln-rs = { git = "https://github.com/johncarmack1984/maplibre-native-next", branch = "globe-pr" }
+pollster = "1.0.1"
+wgpu = "30.0.1"
+winit = "0.30.13"
+
+# mln-rs is slow unoptimized, so `cargo run` optimizes the dependencies and
+# leaves only this crate's code unoptimized.
+[profile.dev.package."*"]
+opt-level = 3
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
