@@ -14,10 +14,11 @@ publish = false
 dist = true
 
 [dependencies]
-# The globe and the sky are not released yet: they are on globe-pr, the branch
-# of the pull request to louwers/mln-rs. Cargo.lock pins its commit, and
-# `cargo update -p mln-rs` moves to the branch's latest.
-mln-rs = { git = "https://github.com/johncarmack1984/maplibre-native-next", branch = "globe-pr" }
+# The globe and the sky from their pull request to louwers/mln-rs, at the commit
+# this was built against, which a tag on the fork keeps. 0.0.11 on crates.io has
+# the globe, but its API changed, and its sky lacks this commit's fix to the
+# sun's position.
+mln-rs = { git = "https://github.com/johncarmack1984/mln-rs", tag = "globe-pr-534749b" }
 pollster = "1.0.1"
 wgpu = "30.0.1"
 winit = "0.30.13"

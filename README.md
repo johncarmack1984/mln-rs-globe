@@ -45,7 +45,7 @@ For example, OpenFreeMap's Liberty style on the globe: `mln-rs-globe --style htt
 cargo run
 ```
 
-The globe and the sky aren't released yet, so `mln-rs` comes from `globe-pr`, the branch of the pull request to louwers/mln-rs, at the commit `Cargo.lock` pins. `cargo update -p mln-rs` moves to the branch's latest. To build against a local clone instead, give the dependency a `path` to it. Once the globe is on crates.io, the dependency becomes a version from there.
+`mln-rs` comes from the globe's pull request to louwers/mln-rs, at the commit this was built against, which the `globe-pr-534749b` tag on johncarmack1984/mln-rs keeps. mln-rs 0.0.11 on crates.io has the globe, but moving to it takes a port, since its API has changed. Its sky also lacks that commit's fix to the sun's position. To build against a local clone instead, give the dependency a `path` to it.
 
 ## Release
 

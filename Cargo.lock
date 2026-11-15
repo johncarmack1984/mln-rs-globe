@@ -1276,7 +1276,7 @@ dependencies = [
 [[package]]
 name = "mln-rs"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-actor",
  "mln-rs-conversion",
@@ -1320,7 +1320,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-actor"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-feature",
  "mln-rs-util",
@@ -1329,7 +1329,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-conversion"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-feature",
  "mln-rs-geojson",
@@ -1339,12 +1339,12 @@ dependencies = [
 [[package]]
 name = "mln-rs-csscolorparser"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 
 [[package]]
 name = "mln-rs-earcut"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-geometry",
  "mln-rs-libstdcxx",
@@ -1353,7 +1353,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-expression"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-conversion",
  "mln-rs-feature",
@@ -1373,7 +1373,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-feature"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-geometry",
  "serde",
@@ -1382,7 +1382,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-geojson"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-feature",
  "mln-rs-geometry",
@@ -1393,7 +1393,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-geojson-vt"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-feature",
  "mln-rs-geojson",
@@ -1404,7 +1404,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-geometry"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "serde",
 ]
@@ -1412,7 +1412,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-gfx"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "bytemuck",
  "mln-rs-geometry",
@@ -1435,7 +1435,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-kdbush"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-libstdcxx",
 ]
@@ -1443,12 +1443,12 @@ dependencies = [
 [[package]]
 name = "mln-rs-libstdcxx"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 
 [[package]]
 name = "mln-rs-map"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-actor",
  "mln-rs-geometry",
@@ -1465,7 +1465,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-map-types"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-geometry",
  "mln-rs-math",
@@ -1478,17 +1478,17 @@ dependencies = [
 [[package]]
 name = "mln-rs-math"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 
 [[package]]
 name = "mln-rs-nunicode"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 
 [[package]]
 name = "mln-rs-platform-default"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-actor",
  "mln-rs-gfx",
@@ -1503,7 +1503,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-platform-default-image"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "flate2",
  "image-webp",
@@ -1514,12 +1514,12 @@ dependencies = [
 [[package]]
 name = "mln-rs-pmtiles"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 
 [[package]]
 name = "mln-rs-polylabel"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-geometry",
  "mln-rs-libstdcxx",
@@ -1528,17 +1528,17 @@ dependencies = [
 [[package]]
 name = "mln-rs-protozero"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 
 [[package]]
 name = "mln-rs-rapidjson"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 
 [[package]]
 name = "mln-rs-renderer"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "bytemuck",
  "mln-rs-actor",
@@ -1568,12 +1568,12 @@ dependencies = [
 [[package]]
 name = "mln-rs-shelf-pack"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 
 [[package]]
 name = "mln-rs-sprite"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-actor",
  "mln-rs-geometry",
@@ -1587,7 +1587,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-storage"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-actor",
  "mln-rs-feature",
@@ -1604,7 +1604,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-storage-offline"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-actor",
  "mln-rs-conversion",
@@ -1622,7 +1622,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-style"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-actor",
  "mln-rs-conversion",
@@ -1648,7 +1648,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-style-types"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-feature",
  "mln-rs-math",
@@ -1660,7 +1660,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-supercluster"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-feature",
  "mln-rs-geometry",
@@ -1671,7 +1671,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-text"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "harfrust",
  "mln-rs-math",
@@ -1686,7 +1686,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-tile"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-feature",
  "mln-rs-geometry",
@@ -1702,7 +1702,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-tile-id"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-feature",
  "mln-rs-geometry",
@@ -1713,7 +1713,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-util"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "bytemuck",
  "mln-rs-csscolorparser",
@@ -1728,7 +1728,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-vector-tile"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-feature",
  "mln-rs-geometry",
@@ -1738,7 +1738,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-wagyu"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "mln-rs-geometry",
  "mln-rs-libstdcxx",
@@ -1747,7 +1747,7 @@ dependencies = [
 [[package]]
 name = "mln-rs-webgpu"
 version = "0.0.11"
-source = "git+https://github.com/johncarmack1984/maplibre-native-next?branch=globe-pr#534749bbc513d58676e6db08805b13e28c24472c"
+source = "git+https://github.com/johncarmack1984/mln-rs?tag=globe-pr-534749b#534749bbc513d58676e6db08805b13e28c24472c"
 dependencies = [
  "bytemuck",
  "mln-rs-gfx",
